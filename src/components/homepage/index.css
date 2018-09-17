@@ -1,0 +1,14 @@
+.cus-padding{
+    padding: 15px;
+    /* margin: 20px; */
+}
+.bg-color{
+    background-color: aliceblue;
+}
+.cus-margin{
+    margin: 15px;
+}
+.cus-pad-message{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
