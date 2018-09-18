@@ -3,6 +3,10 @@ import './index.css';
 import allproduct from './img/allproduct.png';
 import namecard from './img/namecard.png';
 import book from './img/book.png';
+import bag from './img/bag.png';
+import flyer from './img/flyer.png';
+import calendar from './img/calendar.png';
+import wedding from './img/wedding.png';
 
 export default class Product extends React.Component{
     render(){
@@ -55,10 +59,10 @@ export default class Product extends React.Component{
                     </div>
                     <div className="row cus-padding-top">
                         <div className="col-sm-6 text-center">
-                            <img src={namecard} className="img-fluid cus-tran-img" alt="NameCard"/>
+                            <img src={calendar} className="img-fluid cus-tran-img" alt="NameCard"/>
                         </div>
                         <div className="col-sm-6">
-                            <h3>Books</h3>
+                            <h3>Calendars</h3>
                             <hr/>
                             <ul>
                                 <li><h5>Type: <small>Spiral,Binding,Soft Cover</small></h5></li>
@@ -71,7 +75,7 @@ export default class Product extends React.Component{
                     </div>
                     <div className="row cus-padding-top bg-pvc">
                         <div className="col-sm-6 cus-padding-left">
-                            <h3>Books</h3>
+                            <h3>Flyers & Leaflats</h3>
                             <hr/>
                             <ul>
                                 <li><h5>Type: <small>Spiral,Binding,Soft Cover</small></h5></li>
@@ -82,15 +86,15 @@ export default class Product extends React.Component{
                             </ul>
                         </div>
                         <div className="col-sm-6 text-center">
-                            <img src={namecard} className="img-fluid cus-tran-img" alt="NameCard"/>
+                            <img src={flyer} className="img-fluid cus-tran-img" alt="NameCard"/>
                         </div>
                     </div>
                     <div className="row cus-padding-top">
                         <div className="col-sm-6 text-center">
-                            <img src={namecard} className="img-fluid cus-tran-img" alt="NameCard"/>
+                            <img src={bag} className="img-fluid cus-tran-img" alt="NameCard"/>
                         </div>
                         <div className="col-sm-6">
-                            <h3>Books</h3>
+                            <h3>Bags</h3>
                             <hr/>
                             <ul>
                                 <li><h5>Type: <small>Spiral,Binding,Soft Cover</small></h5></li>
@@ -103,7 +107,7 @@ export default class Product extends React.Component{
                     </div>
                     <div className="row cus-padding-top bg-pvc">
                         <div className="col-sm-6 cus-padding-left">
-                            <h3>Books</h3>
+                            <h3>Wedding Cards</h3>
                             <hr/>
                             <ul>
                                 <li><h5>Type: <small>Spiral,Binding,Soft Cover</small></h5></li>
@@ -114,7 +118,7 @@ export default class Product extends React.Component{
                             </ul>
                         </div>
                         <div className="col-sm-6 text-center">
-                            <img src={namecard} className="img-fluid cus-tran-img" alt="NameCard"/>
+                            <img src={wedding} className="img-fluid cus-tran-img" alt="NameCard"/>
                         </div>
                     </div>
                 </div>

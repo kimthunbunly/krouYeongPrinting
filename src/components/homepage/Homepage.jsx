@@ -17,6 +17,7 @@ import mengheang from './image/mengheang.png';
 import david from './image/david.png';
 import sa from './image/sa.png';
 import footer from './image/footer.png';
+// import Maps from './maps';
 
 export default class Homepage extends React.Component{
     render(){
@@ -73,15 +74,40 @@ export default class Homepage extends React.Component{
                                 s soft, clean and ready to be tucked into a pair of fair isle mitte
                                 ns. It really is the most wonderful time of the year.</p>
                         </div>
+                        <div className="col-sm text-center cus-margin">
+                            <h3>Our Services</h3>
+                            <br/>
+                            <img src={packages} alt="packages"/>
+                            <br/>
+                            <p>Sometimes the scent of seasonal hand wash is all we need to
+                                rouse our holiday spirits. Available in an array of festive fragra
+                                nces, our naturally derived gel hand wash will leave your hand
+                                s soft, clean and ready to be tucked into a pair of fair isle mitte
+                                ns. It really is the most wonderful time of the year.</p>
+                        </div>
                     </div>
                     <br/>
                     <div className="text-center">
                         <h3>Our Partner</h3>
                         <div className="row justify-conten-md-center">
-                            <img className="col-sm img-fluid" src={wwf} alt="wwf"/>
-                            <img className="col-sm img-fluid" src={ngo} alt="ngo"/>
-                            <img className="col-sm img-fluid" src={wing} alt="wing"/>
-                            <img className="col-sm img-fluid" src={cbc} alt="cbc"/>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={wwf} alt="wwf"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={ngo} alt="ngo"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={wing} alt="wing"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={cbc} alt="cbc"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={cbc} alt="cbc"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={cbc} alt="cbc"/>
+                            </div>
                         </div>
                     </div>
                     <div className="container">
@@ -155,6 +181,8 @@ export default class Homepage extends React.Component{
                                 <button type="submit" className="btn btn-primary">Submit</button>
                             </form>
                         </div>
+                        <br/>
+                        {/* <Maps/> */}
                         <br/>
                         <div className="row justify-content-md-center">
                             <a href="#" className="col-sm-2 nav-link">Privacy Policy</a>
