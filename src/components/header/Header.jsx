@@ -1,12 +1,13 @@
 import React from 'react'
 import './index.css';
 import logo  from './logo.png';
+import {Link} from "react-router-dom";
 
 export default class Header extends React.Component{
     render(){
         return(
             <nav className="navbar navbar-expand-lg  fixed-top navbar-dark bg-header navbar-height">
-              <a to='/'><img src={logo} className="d-inline-block align-top img-fluid cus-logo" alt="logo"/></a>
+              <Link to='/'><img src={logo} className="d-inline-block align-top img-fluid cus-logo" alt="logo"/></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"><i class="fas fa-chevron-circle-down"></i></span>
                 </button>
@@ -14,16 +15,16 @@ export default class Header extends React.Component{
                   <div className="mr-auto"/>
                     <ul className="nav">
                       <li className="nav-item">
-                        <a to='/' className="nav-link">Home</a>
+                        <Link to='/' className="nav-link">Home</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" to='/service'>Product</a>
+                        <Link className="nav-link" to='/product'>Product</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" to='/service'>Service</a>
+                        <Link className="nav-link" to='/services'>Service</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" to='/contact'>Contact</a>
+                        <Link className="nav-link" to='/contact'>Contact</Link>
                       </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">

@@ -1,0 +1,31 @@
+.bg-pvc{
+    background-color: #f0f0f0;
+    /* height: 800px; */
+}
+.cus-padding-top{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cus-padding h4{
+    color: #000;
+}
+.cus-img-png{
+    width: 841px;
+    height: 493px;
+    /* box-shadow: 3px 3px 5px 6px rgb(27, 26, 26); */
+    transition-duration: 1S;
+}
+.cus-img-png:hover{
+transform: scale(1.2);
+transition-duration: 1.2S;
+}
+.cus-tran-img{
+    transition-duration: 1S;
+}
+.cus-tran-img:hover{
+    transform: scale(1.05) ;
+    transition-duration: 1S;
+}
+.cus-padding-left{
+    padding-left: 50px;
+}
