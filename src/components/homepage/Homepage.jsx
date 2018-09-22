@@ -1,12 +1,16 @@
 import React from 'react';
-import image1 from './background.jpg';
-import banner from './banner.jpg';
-import printing from './printing.jpg';
+// import image1 from './background.jpg';
+// import banner from './banner.jpg';
+// import printing from './printing.jpg';
 import './index.css';
 import wwf from './logo/wwf.jpg';
 import cbc from './logo/cbc.jpg';
 import wing from './logo/wing.jpg';
 import ngo from './logo/ngo.jpg';
+import asia from './logo/asia-veluy-01.png';
+import lolc from './logo/lolc-01.png';
+import sunny from './logo/sunny-coco-01.png';
+import high from './logo/hi-bridge-01.png';
 import packages from './image/package.png';
 import kakada from './image/kakada.png';
 import leakhena from './image/leakhena.png';
@@ -18,12 +22,13 @@ import david from './image/david.png';
 import sa from './image/sa.png';
 import footer from './image/footer.png';
 // import Maps from './maps';
+import allproduct from './print.png';
 
 export default class Homepage extends React.Component{
     render(){
         return(
             <div>
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -48,11 +53,21 @@ export default class Homepage extends React.Component{
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
+                </div> */}
+                <div className="bg-homepage">
+                    <div className="container cus-padding-top">
+                        <h5>Enjoy your product here!</h5>
+                        <h1>WELCOME TO KROU YEONG PRITNING SHOP</h1>
+                        <br/>
+                        <div className="row justify-content-md-center">
+                            <img src={allproduct} className="img-fluid cus-img-png" alt="allproduct"/>
+                        </div>
+                    </div>
                 </div>
                 <br/>
                 <div className="container">
-                    <div className="row justify-content-md-center cus-padding bg-color">
-                        <div className="col-sm text-center cus-margin">
+                    <div className="row justify-content-md-center">
+                        <div className="col-sm text-center cus-margin cus-padding">
                             <h3>Our Product</h3>
                             <br/>
                             <img src={packages} alt="packages"/>
@@ -63,7 +78,7 @@ export default class Homepage extends React.Component{
                                 s soft, clean and ready to be tucked into a pair of fair isle mitte
                                 ns. It really is the most wonderful time of the year.</p>
                         </div>
-                        <div className="col-sm text-center cus-margin">
+                        <div className="col-sm text-center cus-margin cus-padding">
                             <h3>Our Services</h3>
                             <br/>
                             <img src={packages} alt="packages"/>
@@ -74,7 +89,7 @@ export default class Homepage extends React.Component{
                                 s soft, clean and ready to be tucked into a pair of fair isle mitte
                                 ns. It really is the most wonderful time of the year.</p>
                         </div>
-                        <div className="col-sm text-center cus-margin">
+                        <div className="col-sm text-center cus-margin cus-padding">
                             <h3>Our Services</h3>
                             <br/>
                             <img src={packages} alt="packages"/>
@@ -95,6 +110,26 @@ export default class Homepage extends React.Component{
                             </div>
                             <div className="col-sm">
                                 <img className="img-fluid" src={ngo} alt="ngo"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={wing} alt="wing"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={cbc} alt="cbc"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={lolc} alt="cbc"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={asia} alt="cbc"/>
+                            </div>
+                        </div>
+                        <div className="row justify-conten-md-center">
+                            <div className="col-sm">
+                                <img className="img-fluid" src={high} alt="wwf"/>
+                            </div>
+                            <div className="col-sm">
+                                <img className="img-fluid" src={sunny} alt="ngo"/>
                             </div>
                             <div className="col-sm">
                                 <img className="img-fluid" src={wing} alt="wing"/>
@@ -131,7 +166,7 @@ export default class Homepage extends React.Component{
                             </div>
                             <div className="col-sm text-center">
                                 <img src={maliya} alt="boss"/>
-                                <h5>Mr. HUN MALIYA</h5>
+                                <h5>Mrs. HUN MALIYA</h5>
                                 <p>Marketing</p>
                             </div>
                         </div>
